@@ -15,7 +15,7 @@ const LoginPage = () => {
             email:email.current.value,
             password:password.current.value
         }
-        axios.post("http://localhost:4300/login",data)
+        axios.post("https://foodblog-kb9t.onrender.com/login",data)
         .then((res)=>{
            alert(res.data.message)
            if(res.data.status==200){

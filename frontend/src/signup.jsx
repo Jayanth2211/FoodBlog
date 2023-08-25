@@ -20,7 +20,7 @@ const Signup = () => {
         }
 
             if(data.name && data.email && data.password && data.password==data.confirmPassword){
-                axios.post("http://localhost:4300/signup",data).then((res)=>{
+                axios.post("https://foodblog-kb9t.onrender.com/signup",data).then((res)=>{
                     
                     alert(res.data.message)
                     if(res.data.status==200){

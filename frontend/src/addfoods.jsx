@@ -25,7 +25,7 @@ const Addfood=()=>{
 
         }
         if(data.title && data.side && data.imgurl && data.rating && data.price){
-            axios.post('http://localhost:4300/add-food',data).then((res)=>{
+            axios.post('https://foodblog-kb9t.onrender.com/add-food',data).then((res)=>{
                 alert(res.data.message)
                 if(res.data.status==200){
                     navigate('/food')

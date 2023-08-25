@@ -8,7 +8,7 @@ const Food=()=>{
    
    useEffect(()=>{
     let fetchData=async()=>{
-        let res=await axios.get('http://localhost:4300/food')
+        let res=await axios.get('https://foodblog-kb9t.onrender.com/food')
       let data=res.data
        setFood(data)
        setDom(data)
