@@ -1,0 +1,58 @@
+.foods{
+    display: inline-block;
+   margin: 10px 40px;
+    text-align: center;
+    border: 1px solid rosybrown;
+    border-radius: 8px;
+    padding-bottom: 4px;
+}
+.search span{
+    color: white;
+   
+}
+.search{
+    display: flex; 
+    margin-left: 380px;
+    width: 268px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid;
+}
+.search input{
+    border: none;
+    outline: none;
+   
+    width: 228px;
+    color: white;
+    
+    
+    background-color: black;
+}
+.search input::placeholder{
+color:white;
+font-size: 19px;
+}
+.search button{
+    background-color: black;
+    color: white;
+}
+.boxes{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+   
+} 
+#rating{
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+} 
+.foods img{
+    height: 250px;
+    width: 270px;
+    border-radius: 10px;
+} 

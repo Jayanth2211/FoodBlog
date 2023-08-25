@@ -1,0 +1,38 @@
+.addfood{
+    display: flex;
+    align-items: center;
+    background-color:rgba(169, 169, 169, 0.274);
+    width: 650px;
+    margin: 50px 0px 0px 270px;
+    
+}
+.title{
+    display: flex;
+}
+.title div{
+    margin-right: 5px;
+}
+.addfoodConten label{
+    display: block;
+    font-size: 12px;
+}
+.addfoodConten{
+    padding: 20px;
+}
+.addfood label{
+    display: block;
+}
+.addfood input{
+    display: block;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 195px;
+}
+.addfood button{
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 130px;
+}
