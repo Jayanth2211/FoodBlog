@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    margin-left: 150px;
+}
+.uderline{
+    border-bottom: 6px solid;
+}
+.homecontent button{
+    background-color: black;
+    color: white;
+    height:50px;
+    width: 190px;
+    border: none;
+    font-size: 20px;
+}
+.homecontent{
+    width: 290px;
+   
+    background-color: yellow;
+    padding: 0px 100px 0px 20px;
+}
+.homecontent h1{
+    font-size: 40px;
+}
